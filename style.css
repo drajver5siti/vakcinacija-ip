@@ -1,0 +1,9 @@
+.title {
+    text-align: center;
+}
+.input-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}

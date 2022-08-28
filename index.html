@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vakcinacija MK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <div class="title">
+            <h2>Вакцина.мк</h2>
+            <h4>Сајт за искажување интерес за Вакцина</h4>
+        </div>
+        <div class="content">
+            <form id="main-form">
+                <div class="input-group">
+                    <label for="name"> Име </label>
+                    <input type="text" name="name"/>
+                </div>
+                <div class="input-group">
+                    <label for="surname">Презиме</label>
+                    <input type="text" name="surname">
+                </div>
+                <div class="input-group">
+                    <label for="id">Матичен број</label>
+                    <input type="text" name="id">
+                </div>
+                <div class="input-group">
+                    <label for="sex">Пол</label>
+                    <div>
+                        <input type="radio" name="sex" id="" checked value="1">
+                        <input type="radio" name="sex" value="2">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="age">Години</label>
+                    <input type="number" name="age"/>
+                </div>
+                <div class="input-group">
+                    <label for="email">Емаил</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="input-group">
+                    <label for="location">Локација</label>
+                    <select name="location" id="">
+                        <option value="skopje">Skopje</option>
+                        <option value="kumanovo">Kumanovo</option>
+                        <option value="Veles">Veles</option>
+                    </select>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
